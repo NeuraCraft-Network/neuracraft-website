@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="img/Favicon.png">
+
+  <title>Neuracraft – Contact Support</title>
+
+  <meta name="author" content="Neuracraft">
+  <meta name="description" content="Official Neuracraft support contact form. No passwords or sensitive credentials are collected.">
+
+  <link rel="stylesheet" href="css/support.css" />
+
+  <!--
+    Official Neuracraft support contact form.
+    This page does NOT collect passwords or credentials.
+  -->
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <h1>Contact Support</h1>
+
+      <p class="info">
+        This is the official Neuracraft support contact form.
+        Only your email and problem description will be sent.
+        Please do <strong>not</strong> enter passwords or sensitive credentials.
+      </p>
+
+      <form action="https://formspree.io/f/X" method="POST">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="email@example.com"
+          required
+        />
+
+        <label for="description">Problem Description</label>
+        <textarea
+          id="description"
+          name="description"
+          placeholder="Explain your problem clearly..."
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <footer>
+        © 2026 Neuracraft — Official Support
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
